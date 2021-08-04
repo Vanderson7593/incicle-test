@@ -46,7 +46,7 @@ export const Container = styled.div`
   .mainWrapper {
     display: flex;
     gap: 26px;
-    @media (max-width: ${({ theme }) => theme.screen.sm}px) {
+    @media (max-width: ${({ theme }) => theme.screen.sm}) {
       flex-direction: column;
     }
   }

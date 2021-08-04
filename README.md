@@ -1,4 +1,4 @@
-## This is my InCicle aptitude test.
+## This is my InCicle Company aptitude test.
 
 You can access the app hosted in vercel, following this link: https://incicle-test.vercel.app/
 

@@ -9,8 +9,8 @@ export const Container = styled(StyledContainer)`
   display: flex;
   flex-direction: column;
 
-  @media (max-width: ${({ theme }) => theme.screen.sm}px) {
-    width: 100vw;
+  @media (max-width: ${({ theme }) => theme.screen.sm}) {
+    width: 100%;
     align-items: center;
   }
 `
