@@ -12,8 +12,20 @@
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "jsx": "preserve"
+    "jsx": "preserve",
+    "noImplicitAny": true,
+    "importHelpers": true,
+    "baseUrl": ".",
+    "paths": {
+      "@components": ["client/components/index.ts"],
+      "@types": ["types/index.ts"],
+      "@styles/*": ["styles/*"],
+      "@utils/*": ["utils/*"],
+      "@mocks": ["mocks/index.ts"],
+      "@constants": ["constants/index.ts"],
+      "@test-suite": ["client/test-suite/index.tsx"]
+    }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
-  "exclude": ["node_modules"]
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "jest.config.js"],
+  "exclude": ["node_modules", ".next", ".vercel"]
 }
